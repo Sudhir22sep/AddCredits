@@ -9,6 +9,23 @@ This app consists of events (publish and subscribe) which are most commonly used
 ![](https://s3-us-west-2.amazonaws.com/app-screenshot/addmore.png)
 ![](https://s3-us-west-2.amazonaws.com/app-screenshot/added.png)
 
+## Workflow
+ 1)first page has 0 value initially
+ 
+ 
+ 2)second page has input field where some value is entered.i.e,30
+ 
+ 
+ 3)back navigation to first page with the publish and popup methods ,displays updated balance.
+ 
+ 
+4)second page after navigation that asks for new input value
+ 
+ 
+ 5)The updated balance is displayed with value: 30+50=80 
+ 
+ 
+
 ## Using this project
 
 We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
