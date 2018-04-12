@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- <ion-content padding>
+   Balance<br>
+  <input type="number" name="Balance">
+  
+  <br>
+  <button ion-button color="danger" (click)="nextPage()">Add Credit </button>
+
+</ion-content> -->
+
+<!-- <ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>Amount</ion-label>
+      <ion-input placeholder='0.0' #color></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button color="secondary" (click)="goTo(color.value)">Add</button>
+  
+</ion-content> -->
+
+
+
+<ion-content padding>
+   <!-- <ion-label> {{amountUp}}</ion-label>
+  <ion-label> {{amount}}</ion-label>  -->
+  <ion-list>
+    <ion-item>
+      <ion-label>Amount</ion-label>
+  <ion-input color="primary" [(ngModel)]="amountUp"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button color="secondary" (click)="goToA()">Add </button>
+</ion-content>
